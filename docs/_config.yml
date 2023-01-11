@@ -1,0 +1,9 @@
+theme: jekyll-theme-time-machine
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jemoji
+  - jekyll-mentions
+  - jekyll-github-metadata
+title: retardis
