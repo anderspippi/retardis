@@ -1,0 +1,11 @@
+name: swolfkrow
+on: "*"
+
+jobs:
+  test:
+    runs-on: macos-12
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+    - run: npm install yarn
+    - run: npm install n
