@@ -1,5 +1,5 @@
 name: swolfkrow
-on: "*"
+on: "push"
 
 jobs:
   test:
