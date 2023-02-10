@@ -1,6 +1,6 @@
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
+    runs-on: push${{ matrix.os }}
     strategy:
       matrix:
         os:
