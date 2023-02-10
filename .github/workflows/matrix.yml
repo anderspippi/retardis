@@ -27,4 +27,4 @@ jobs:
           node-version: ${{ matrix.node_version }}
           architecture: ${{ matrix.architecture }}
       - run: npm update --force 
-      - run: npm install npx yarn -g
+      - run: npm install npx yarn
